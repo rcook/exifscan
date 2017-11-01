@@ -6,10 +6,6 @@ Dump EXIF metadata with Python
 
 ```
 git clone https://github.com/rcook/exifscan.git
-cd exifscan
-script/virtualenv
-script/env pip install -e .
-script/env exifscan --version
 ```
 
 ## Licence

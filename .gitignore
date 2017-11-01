@@ -1,6 +1,5 @@
 /.eggs/
 /build/
 /dist/
-/env/
 /exifscan.egg-info/
 *.pyc
