@@ -13,7 +13,7 @@ from pyprelude.file_system import make_path
 
 from exifscan import __description__, __project_name__, __version__
 
-_EXTENSIONS = map(lambda x: x.lower(), [".jpg", ".jpeg", ".png"])
+_EXTENSIONS = map(lambda x: x.lower(), [".jpg", ".jpeg", ".png", ".avi"])
 
 def _exif_dump(scan_dir):
     for f in os.listdir(scan_dir):
